@@ -1,3 +1,5 @@
-> 1%
-last 2 versions
-not dead
+#> 1% #兼容超过1%浏览器用户
+#last 2 versions #最后两个版本
+#not dead #没死的浏览器
+Android >= 4.0
+iOS >= 8
