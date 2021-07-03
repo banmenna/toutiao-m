@@ -108,6 +108,7 @@ export default {
         Toast.success("登陆成功");
 
         this.$store.commit('setUser',data.data)
+        this.$router.back()
       } catch (error) {
         if (error.response.status === 400) {
           console.log("登陆失败", error);
